@@ -87,7 +87,7 @@ Before running the pipeline, download the MSCOCO training images to:
 ### 1. Generate pseudo labels under the pretrain setting
 
 ```bash
-python rec_generation_with_pretrain_setting.py \
+python rec_generation.py \
   --input_filename <input_file> \
   --output_dir <output_dir> \
   --world_size 8 \

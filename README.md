@@ -12,7 +12,7 @@
 ## Links
 
 - **Paper**: `https://arxiv.org/abs/2505.24372v2`
-- **Code Repository**: `https://arxiv.org/abs/2505.24372v2`
+- **Code Repository**: `https://github.com/iLearn-Lab/ICME2026-Distribution-Aware-Labeling`
 
 
 ## Updates
@@ -25,8 +25,8 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Checkpoints / Models](#checkpoints--models)
-- [Dataset / Benchmark](#dataset--benchmark)
+- [Models prepare](#models-prepare)
+- [Data prepare](#data-prepare)
 - [Usage](#usage)
 - [TODO](#todo)
 - [Citation](#citation)
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-## Models Prepare
+## Models prepare
 
 This project currently depends on the following model directories:
 
@@ -75,7 +75,7 @@ This project currently depends on the following model directories:
 
 Please make sure the corresponding weights and configuration files are available in these folders.
 
-## Data Prepare
+## Data prepare
 
 Before running the pipeline, download the MSCOCO training images to:
 
